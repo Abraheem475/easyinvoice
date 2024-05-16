@@ -60,7 +60,7 @@ void onDenied(BuildContext context){
             highlightColor: Colors.transparent,
             child: SizedBox(width: 120,child: Center(child: Text('OPEN SETTINGS',style: TextStyle(color: appColor),))),
             onTap: () {
-              // openAppSettings();
+              openAppSettings();
               Navigator.of(ctx).pop();
             }
         ),
