@@ -7,10 +7,10 @@ import 'package:get/get.dart';
 class PageMovingSkipButton {
   Widget pageMovingSkipButton() {
     return Positioned(
-        top: 15,
-        right: 15,
+        top: 25,
+        right: 18,
         child: TextButtonCustom().textButtonCustom(
-            onPress: () {Get.offAll(NavBarBottomScreen());},
+            onPress: () {Get.offAll(const NavBarBottomScreen());},
             fontWeight: FontWeight.bold,
             fontSize: 15.0,
           text: "Skip",textColor: appColor,));

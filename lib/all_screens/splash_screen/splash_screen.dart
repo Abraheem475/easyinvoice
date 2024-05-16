@@ -24,8 +24,8 @@ class SplashScreen extends StatelessWidget {
           Center(
             child: Container(
                 padding: const EdgeInsets.all(10.0),
-                width: 200.0,
-                height: 200.0,
+                width: 250.0,
+                height: 250.0,
                 decoration: const BoxDecoration(
                   shape: BoxShape.circle,
                 ),

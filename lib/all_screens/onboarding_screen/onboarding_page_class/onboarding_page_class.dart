@@ -31,8 +31,9 @@ class OnBoardingSlide extends StatelessWidget {
             child:
               TextClass().textClass(fontSize: 16.0, text: textOne,fontWeight: FontWeight.bold,textColor: blackColor),
           ),
-          const SizedBox(height: 15.0,),
-          TextClass().textClass(text: textTwo, textColor: blackColor, fontSize: 13.0,),
+          const SizedBox(height: 16.0,),
+          TextClass().textClass(text: textTwo, textColor: blackColor, fontSize: 12.0,textAlign: TextAlign.center),
+          const SizedBox(height: 20.0,),
           SizedBox(
             child: isButton
                 ? NextButton().nextButton(

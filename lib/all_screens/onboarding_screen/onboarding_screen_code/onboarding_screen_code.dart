@@ -29,7 +29,7 @@ class OnBoardingScreen extends StatelessWidget {
           OnBoardingSlide(
             image: ImagePath.onboardingScreenTwo,
             textOne: "Streamlined Receipt Creation Made Fast and Simple!",
-            textTwo: "Cut down on time and tension, Produce endless invoices effortlessly \n with Easy Invoice Maker.", isButton: false,
+            textTwo: "Cut down on time and tension, Produce endless invoices effortlessly with Easy Invoice Maker.", isButton: false,
           ),
           OnBoardingSlide(
             image: ImagePath.onboardingScreenThree,

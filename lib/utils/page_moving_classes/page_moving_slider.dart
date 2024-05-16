@@ -10,7 +10,7 @@ class PageMovingSlider extends StatelessWidget {
   Widget build(BuildContext context) {
     final pageController = PageMovingController.instance;
     return Padding(
-      padding: const EdgeInsets.only(bottom: 35.0),
+      padding: const EdgeInsets.only(bottom: 30.0),
       child: SmoothPageIndicator(
         controller: pageController.pageController,
         count: 3,

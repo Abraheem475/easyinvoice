@@ -46,7 +46,7 @@ class PreviewInvoice extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Center(
-                child: Image.asset(ImagePath.splashLogo,
+                child: Image.asset(ImagePath.readyInvoice,
                   height: 300.0,width: 300.0,fit: BoxFit.contain,)),
             const SizedBox(height: 30.0,),
             Center(
