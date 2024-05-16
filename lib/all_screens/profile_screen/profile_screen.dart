@@ -40,7 +40,7 @@ class ProfileScreen extends StatelessWidget {
         leadingIconColor: whiteColor,
         titleColor: whiteColor,
         backgroundColor: appColor,
-        text: "Business profile",
+        text: "Set profile",
         useLeadingIcon: true,
         onPress1: () {
           Get.back();
